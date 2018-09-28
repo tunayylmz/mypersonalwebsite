@@ -8,7 +8,7 @@ body, html{
 	scroll-behavior: smooth;
 }
 nav{
-	position: absolute;
+	position: fixed;
 	height: 100px;
 	width: 100%;
 	text-align: center;
@@ -16,14 +16,18 @@ nav{
 	z-index: 2;
 }
 nav a{
+
 	color:white;
 	font-family: 'Permanent Marker', cursive;
 	text-decoration: none;
 	font-size: 20px;
 	margin-left: 20px;
 	padding: 12px 12px;
+	position: relative;
+
 
 }
+
 nav a:hover{
 	background-color: orange;
 }
@@ -46,9 +50,7 @@ nav a:hover{
 	
 }
 #gor2{
-	background-image: url(gökyüzü2.jpg);
-	
-	
+	background-image: url(ev.jpg);
 }
 #gor3{
 	background-image: url(gökyüzü3.jpg);
@@ -80,4 +82,29 @@ nav a:hover{
 	background-color: black;
 	opacity: 0.05;
 	z-index: 0;
-	}
+}
+.hakkında p{
+	color: white;
+	text-align: center;
+	font-size: 23px;
+	padding-top: 170px;
+	font-family: 'Kalam', cursive;
+}
+.hakkında2{
+	float: left;
+	font-family: 'Kalam', cursive;
+	font-size: 23px;
+	color: white;
+	margin-left: 15px;
+	padding-top: 50px;
+}
+#border {
+
+	border:2px solid red;
+}
+#border:after{
+	clear:both !important;
+}
+.clearfix{
+	/*clear:both;*/
+}
